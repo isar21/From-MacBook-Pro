@@ -1,0 +1,59 @@
+/* Basic Styling */
+
+html {
+}
+
+body {
+	background-color: #7c1d1d;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #7c1d1d;
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
+}
+
+.main {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #545452;
+	padding: 5px 10px 5px 10px;
+}
+
+.textbg {
+	background-color: #fcfcf8;
+	padding: 5px 10px 5px 10px;
+	margin-bottom: 10px;
+}
+
+
+h1 {
+	font-family: Georgia,serif;
+	}
+
+p {
+	font-family: Georgia,serif;
+	-webkit-hyphenate-character: 10;
+	line-height: 1.4em;
+	letter-spacing: 0.1em;
+}
+
+a.foo {
+	padding: 5px, 10px;
+	background: #9c3;
+	text-decoration: none;
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 0,4s ease 0,2s;
+}
+
+a.foo:hover,a.foo:focus {
+	background: #598108;
+}
+ 
+	
